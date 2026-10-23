@@ -1,0 +1,13 @@
+{
+  "name": "apreu-seeds",
+  "private": true,
+  "type": "module",
+  "description": "Datos de prueba de Apreu v2 sembrados a través de la API",
+  "scripts": {
+    "seed": "node seed-demo.mjs"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "pg": "^8.16.3"
+  }
+}

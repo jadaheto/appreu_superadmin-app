@@ -1,0 +1,14 @@
+node_modules
+dist
+coverage
+test
+.env
+*.log
+*.tsbuildinfo
+.git
+# De database/ la imagen solo usa el esquema de colegios y sus migraciones.
+database/mariadb
+database/seeds
+database/tools
+database/docker
+database/Dockerfile

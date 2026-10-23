@@ -1,0 +1,4 @@
+*
+!postgres/master-schema.sql
+!postgres/master-migrations/**
+!docker/init-apreu.sh

@@ -1,0 +1,20 @@
+{
+  "name": "apreu-mariadb-to-postgres",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Importa la BD de un colegio (o la maestra) de MariaDB 10.11 a PostgreSQL 16 (ADR-0008).",
+  "type": "module",
+  "bin": { "migrate": "./bin/migrate.js" },
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "migrate": "node bin/migrate.js",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "mysql2": "^3.11.0",
+    "pg": "^8.13.0"
+  },
+  "devDependencies": {
+    "vitest": "^3.2.4"
+  }
+}
